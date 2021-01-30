@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Azar</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="secciones">
+        <h1>¡¡APOSTAR AHORA!!</h1>
+    </header>
+    <section class="secciones" id="s1">
+        <div class="cont">
+            <button aria-label="anterior" class="ant">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <div class="list__element">
+                <div class="element__sec">
+                    <table>
+                        <tr>
+                            <img src="img/play2.png" alt="play" id="b-press">
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <p id="wl">
+                                A JUGAR...
+                            </p>
+                        </th>
+                    </table>
+                    <table class="t-in">
+                        <tr>
+                            <th>
+                                <input type="number" placeholder="CANTIDAD" min="1" id="apuesta">
+                            </th>
+                            <th>
+                                <input type="button" value="OK" onclick="keyOK()" id="bok">
+                            </th>
+                        </tr>
+                    </table>
+                    <table class="t-in">
+                        <tr>
+                            <th>
+                                <p class="palabras">
+                                    ¿Cúanto?
+                                </p>
+                            </th>
+                            <th>
+                                <p class="palabras">
+                                    x50
+                                </p>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+                <div class="element__sec">
+                    <table>
+                        <tr>
+                            <th class="tt1">
+                                <div id="grafico">
+                                </div>
+                                <table class="t-in2">
+                                    <tr>
+                                        <th>
+                                            <input type="number" placeholder="Cantidad">
+                                        </th>
+                                        <th>
+                                            <input type="number" placeholder="Cantidad">
+                                        </th>
+                                    </tr>
+                                </table>
+                                <table id="t-special">
+                                    <tr>
+                                        <th class="thspecial">
+                                            <input type="button" value="Comprar" id="bc">
+                                        </th>
+                                        <th class="thspecial">
+                                            <input type="button" value="Vender" id="bv">
+                                        </th>
+                                    </tr>
+                                </table>
+                            </th>
+                            <th class="tt2">
+                                <div>
+                                    <p>VALOR</p>
+                                    <span>1% :</span>
+                                    <span> 100</span>
+                                </div>
+                                <div>
+                                    <p>PARTICIONES</p>
+                                    <table id="t-particiones">
+                                        <tr>
+                                            <th>
+                                                    <p>
+                                                        Ejecutivos
+                                                    </p>
+                                            </th>
+                                            <th>
+                                                <span>51</span>
+                                                <span>%</span>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <p>
+                                                    Inversionistas
+                                                </p>
+                                            </th>
+                                            <th>
+                                                <span>44</span>
+                                                <span>%</span>
+                                            </th>
+                                        </tr>
+                                        <tr>
+                                            <th>
+                                                <p>
+                                                    Free
+                                                </p>
+                                            </th>
+                                            <th>
+                                                <span>5</span>
+                                                <span>%</span>
+                                            </th>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <button aria-label="siguiente" class="sig">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        <div role="tablist" class="ind">
+        </div>
+    </section>
+    <section class="secciones" id="s2">
+        <p id="historial">Historial</p>
+        <div id="oo">
+            <p id="oracion">
+                No tienes movimientos en tu historial
+            </p>
+        </div>
+    </section>
+    <aside class="secciones" id="s3">
+        <p>Tu Dinero: </p>
+        <p id="dinero">2500</p>
+    </aside>
+
+    <footer class="secciones">
+        <a href="#">Item1</a>
+        <a href="#">Item2</a>
+        <a href="#">Item3</a>
+        <a href="#">Item4</a>
+        <a href="#">Item5</a>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+    <script src="https://kit.fontawesome.com/9209a8fef3.js" crossorigin="anonymous"></script>
+    <script src="js/pluggins.js"></script>
+    <script src="js/decoration.js"></script>
+    <script src="js/metodos.js"></script>
+</body>
+</html>

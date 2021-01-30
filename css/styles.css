@@ -1,0 +1,306 @@
+body{
+    background-image: url('../img/fondo2.jpg');
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: 0%;
+    overflow: auto;
+}
+body::-webkit-scrollbar{
+    width: 0%;
+}
+
+.secciones{
+    background: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    color: azure;
+}
+.secciones:hover{
+    background: rgba(128, 128, 128, 0.4);
+}
+/* -------------------------- */
+header{
+    width: 80%;
+    margin: 0 10%;
+    padding: 2px 0;
+    color: azure;
+}
+/* -------------------------- */
+#s1{
+    width: 71%;
+    margin-left: 1.5%;
+    margin-right: 0%;
+    margin-top: 30px;
+    float: left;
+    padding: 5px;
+    height: 296px;
+}
+
+.cont{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 92%;
+    position: relative;
+}
+
+i{
+    font-size: 25px;
+}
+
+.list__element{
+    width: 95%;
+}
+.ant,.sig{
+    padding: 0%;
+    margin: 0%;
+    width: 5%;
+    height: 20%;
+    line-height: 20%;
+    border: none;
+    display: inline-block;
+    background: transparent;
+    color: rgb(35, 35, 35);
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+.ant:hover{
+    color: azure;
+    background: rgba(128, 128, 128, 0.7);
+}
+.sig:hover{
+    color: azure;
+    background: rgba(128, 128, 128, 0.7);
+}
+.ant{
+    left: -5px;
+}
+.sig{
+    right:-5px;
+}
+
+tr{
+    height: 15px;
+}
+img{
+    padding: 0;
+    margin: 0%;
+    width: 135px;
+}
+img:hover{
+    filter: contrast(200%);
+}
+img:onclick{
+    width: 130px;
+    animation: 300ms;
+}
+
+.t-in{
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+    
+}
+.t-in th {
+    display: inline-block;
+    width: 48%;
+    height: 35px;
+}
+.t-in th input{
+    padding: 0;
+    margin: 0%;
+    background: rgb(75, 150, 153,0.8);
+    width: 75%;
+    height: 100%;
+    color: azure;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 100%;
+    border: none;
+}
+.t-in th input::placeholder{
+    color: azure;
+}
+.t-in th input:hover{
+    filter: contrast(200%);
+}
+
+.palabras{
+    margin: 0%;
+    padding: 0%;
+    font-size: 28px;
+}
+
+#wl{
+    margin: 0 10%;
+    padding: 0%;
+    font-size: 65px;
+    width: 80%;
+
+}
+/*-----------------------------------*/
+.tt1{
+    padding: 0%;
+    margin: 0%;
+    width: 70%;
+}
+
+#grafico{
+    margin: 0%;
+    width: 100%;
+    height:180px;
+}
+
+.t-in2{
+    margin: 0%;
+    padding: 0%;
+}
+.t-in2 th {
+    display: inline-block;
+    width: 48%;
+    height: 35px;
+    
+}
+.t-in2 th input{
+    padding: 0;
+    margin: 0%;
+    background: rgb(75, 150, 153,0.8);
+    width: 100%;
+    height: 100%;
+    color: azure;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 100%;
+    border: none;
+}
+#t-special{
+    width: 100%;
+}
+.thspecial{
+    width: 50%;
+}
+
+#bc,#bv{
+    padding: 0%;
+    margin: 0%;
+    background: rgb(75, 150, 153,0.8);
+    color: azure;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 100%;
+    width: 100%;
+    border: none;
+}
+
+.t-in2 th input::placeholder{
+    color: azure;
+}
+.t-in2 th input:hover{
+    filter: contrast(200%);
+}
+
+.tt2{
+    border-left: 1px gray solid;
+    padding: 0%;
+    margin: 0%;
+    width: 30%;
+}
+
+#t-particiones{
+    width: 160px;
+    height: 150px;
+}
+
+/* -------------------------- */
+#s2{
+    width: 21%;
+    margin-right: 1.5%;
+    margin-left: 0%;
+    margin-top: 30px;
+    float: right;
+    padding: 5px;
+    height: 296px;
+    
+}
+#s2::-webkit-scrollbar{
+    width: 0%;
+}
+
+#historial{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 60%;
+    margin-left:20% ;
+    
+}
+#oo{
+    height: 75%;
+    overflow: auto;
+}
+#oo::-webkit-scrollbar{
+    width: 5px;
+}
+#oo::-webkit-scrollbar-thumb{
+    background: rgba(240, 255, 255, 0.4);
+    border-radius: 30%;
+}
+
+.lucky{
+    color: darkslategray
+}
+.m{
+    color: darkgoldenrod;
+}
+
+.Ganaste{
+    color: darkgreen;
+}
+
+.Perdiste{
+    color: darkred;
+}
+
+/* -------------------------- */
+#s3{
+    width: 90%;
+    height: 58px;
+    float: left;
+    margin: 38px 5%;
+    padding-bottom: 20px;
+}
+
+aside p{
+    color: azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: inline-block;
+    width: 20%;
+}
+
+#dinero{
+    font-size: 25px;
+}
+
+/* -------------------------- */
+footer{
+    float: right;
+    width: 100%;
+    height: 30px;
+    padding: 26px 0;
+}
+
+footer a {
+    display: inline-block;
+    width: 18%;
+    text-decoration: none;
+    color:azure;
+}
+
+footer a:hover{
+    color:aquamarine;
+    background: rgba(128, 128, 128, 0.4);
+    border-radius: 100%;
+}
+/* -------------------------- */
